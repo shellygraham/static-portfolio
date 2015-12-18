@@ -1,0 +1,230 @@
+/*
+* Responsive styles for shellymarieking.com by Shelly King
+* Also, credit is due to Dave Gamache for his awesome Skeleton framework:
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		li span {
+			padding: 0 4px 0 0px;
+		}
+		.caption {
+			margin: 0 0 20px 0 !important;
+		}
+		.portfolio-images img {
+			margin: 0 0 20px 0;
+		}
+		.top-container {
+			margin-top: 65px !important;
+		}
+		.gallery li a.titles.tablet {
+		 	padding: 9px 0 10px 0;	
+	 	} 
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		li span {
+			padding: 0 4px 0 0px;
+		}
+		.skills-container ul {
+  		display: block;
+		}
+		.resume header .container {
+			padding: 1em 0 1em 0px !important;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		nav.slickbox {
+			display: none;
+		}
+		.resume aside {
+			background: none;
+		}
+		p {
+			font-size: .75em;
+		}
+		.gallery li {
+			margin: 0 0 20px 0 !important;
+		}
+		.caption {
+			margin: 0 0 20px 0 !important;
+			text-align: center;
+		}
+		.caption p {
+			width: 100%;
+		}
+		.portfolio-images img {
+			margin: 0 0 20px 0;
+		}
+		footer p.top {
+			float: none;
+		}
+		footer p.middle {
+			float: left;
+		}
+		footer p.last {
+			clear: left;
+			float: none;
+		}
+		footer span {
+			margin: 10px 18px;
+		}
+		.top-container {
+			margin-top: 65px !important;
+		}
+		.nine.columns.top-container {
+			margin-top: 0px !important;
+			margin-bottom: 50px;
+		}
+		#contact {
+			position: absolute;
+			bottom: 60px;
+		}
+		.portfolio-buttons {
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			margin-left: -60px;
+		}
+		footer.container.inner {
+			margin-top: 40px;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		header h1 {
+			position: absolute;
+			left: 30%;
+			width: 173px;
+			padding-left: 0;
+		}
+		header a.logo-anchor {
+			position: relative;
+			width: 260px;
+		}
+		header a.logo-anchor span {
+			padding: 17px 10px;
+		}
+		.resume h1 {
+			position: inherit;
+			width: auto;
+			padding-left: 0px;
+		}
+		.resume header a.logo-anchor {
+			position: inherit;
+		}
+		.resume aside {
+			background: none;
+		}
+		p {
+			font-size: .75em;
+		}
+		nav {
+			display: none;
+		}
+		a.slick-toggle, a.slick-toggle-up {
+			display: inline-block;
+			height: 60px;
+			width: 60px;
+			float: right;
+			background: #f2003f;
+			color: #fff;
+			position: relative;
+		}
+		a.slick-toggle:hover, a.slick-toggle-up:hover {
+		 	background: #000;
+		}
+		a.slick-toggle i, a.slick-toggle-up i {
+			position: absolute;
+		    font-size: 30px;
+		    top: 50%;
+		    left: 50%;
+		    margin-top: -16px;
+		    margin-left: -12px;
+		}
+		nav.slickbox {
+			display: inline-block;
+			clear: right;
+		}
+		.slickbox li {
+			float: none;
+		}
+		.skills-container ul {
+  		margin-top: 0;
+		}
+		.skills li {
+			float: none;
+		}
+		.skills li, .skills li:last-child {
+  		margin-right: 0;
+		}
+		li span {
+			display: none;
+		}
+		.gallery li {
+			margin: 0 0 20px 0 !important;
+		}
+		.caption {
+			margin: 0 0 20px 0 !important;
+			text-align: center;
+		}
+		.caption p {
+			width: 100%;
+		}
+		.portfolio-buttons {
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			margin-left: -60px;
+		}
+		.portfolio-images img {
+			margin: 0 0 20px 0;
+		}
+		footer .gamer {
+			margin: 0 10px;
+		}
+		.top-container {
+			margin-top: 65px !important;
+		}
+		.nine.columns.top-container {
+			margin-top: 0px !important;
+			margin-bottom: 50px;
+		}
+		#contact {
+			position: absolute;
+			bottom: 60px;
+		}
+		footer.container.inner {
+			margin-top: 40px;
+		}
+	}
